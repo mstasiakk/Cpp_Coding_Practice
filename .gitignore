@@ -29,5 +29,7 @@ intermediates/
 *.iobj
 
 # Others
-LeetCode_Excercises_TemporaryKey
-PropertySheet
+# Visual Studio / project files to ignore
+packages/
+*.pfx
+*.props
