@@ -21,7 +21,10 @@
     <ClCompile Include="001_print_hello\solution_Hello.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="002_sum_two_numbers\solution.cpp">
+    <ClCompile Include="002_sum_two_numbers\solution_SumTwoNums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="003_BinarySearchTree\solution_BST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -36,7 +39,10 @@
     <ClInclude Include="001_print_hello\solution_Hello.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="002_sum_two_numbers\solution.hpp">
+    <ClInclude Include="002_sum_two_numbers\solution_SumTwoNums.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="003_BinarySearchTree\solution_BST.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

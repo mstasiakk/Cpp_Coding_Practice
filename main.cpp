@@ -4,11 +4,13 @@
 
 #include "001_print_hello/solution_Hello.hpp"
 #include "002_sum_two_numbers/solution_SumTwoNums.hpp"
+#include "003_BinarySearchTree/solution_BST.hpp"
 
 int main() {
     std::map<std::string, std::function<void()>> tasks = {
         {"printHello", printHelloTask},
-        {"sumTwoNumbers", sumTwoNumbersTask}
+        {"sumTwoNumbers", sumTwoNumbersTask},
+        {"bst", bstTask}
     };
 
     while (true) {

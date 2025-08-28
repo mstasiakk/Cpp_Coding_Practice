@@ -118,7 +118,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="001_print_hello\solution_Hello.cpp" />
-    <ClCompile Include="002_sum_two_numbers\solution.cpp" />
+    <ClCompile Include="002_sum_two_numbers\solution_SumTwoNums.cpp" />
+    <ClCompile Include="003_BinarySearchTree\solution_BST.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -130,7 +131,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="001_print_hello\solution_Hello.hpp" />
-    <ClInclude Include="002_sum_two_numbers\solution.hpp" />
+    <ClInclude Include="002_sum_two_numbers\solution_SumTwoNums.hpp" />
+    <ClInclude Include="003_BinarySearchTree\solution_BST.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
