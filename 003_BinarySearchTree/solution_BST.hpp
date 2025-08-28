@@ -10,6 +10,7 @@ struct BstNode {
 // BST functions
 BstNode* GetNewNode(int data);
 BstNode* Insert(BstNode* rootptr, int data);
+bool search(BstNode* rootptr, int data);
 //void PrintTree(BstNode* rootptr, int space, int indent);
 
 // run
