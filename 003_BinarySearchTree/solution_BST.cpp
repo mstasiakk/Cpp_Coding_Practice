@@ -32,6 +32,28 @@ bool search(BstNode* rootptr, int data) {
     else search(rootptr->right, data);
 }
 
+int MaxHeight(BstNode* rootptr)
+{
+    if (rootptr == nullptr) return 0;
+
+    int left_height = MaxHeight(rootptr->left);
+    int right_height = MaxHeight(rootptr->right);
+
+    return 1 + max(left_height, right_height);
+
+}
+
+int MinHeight(BstNode* rootptr)
+{
+    if (rootptr == nullptr) return 0;
+
+    int left_height = MinHeight(rootptr->left);
+    int right_height = MinHeight(rootptr->right);
+
+    return 1 + min(left_height, right_height);
+}
+
+
 /*
 // This function needs to be corrected
 void PrintTree(BstNode* root, int space = 0, int indent = 4) {
@@ -85,6 +107,12 @@ void bstTask() {
         else
             cout << "Number " << number << " is NOT present in the tree.\n";
     }
+
+    cout << "Are you interested in checking maximum or minimum height of the tree?\n Type 'min' or 'max' or 'no' if you are not interested\n";
+    cin >> option;
+
+    if (option == "min") {cout << "Minimum depth of the tree is: " << MinHeight(rootPtr) << endl;}
+    else if (option == "max") {cout << "Maximum depth of the tree is: " << MaxHeight(rootPtr) << endl;}
 
     // cout << "Tree visualization In order: ";
     // PrintTree(rootPtr);
