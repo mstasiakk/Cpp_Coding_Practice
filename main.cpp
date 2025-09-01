@@ -6,6 +6,7 @@
 #include "002_sum_two_numbers/solution_SumTwoNums.hpp"
 #include "003_BinarySearchTree/solution_BST.hpp"
 #include "004_TwoSumIndex/solution_TwoSumIdx.hpp"
+#include "005_BubbleSort/solution_BubbleSort.hpp"
 
 using namespace std;
 
@@ -14,7 +15,8 @@ int main() {
         {"printHello", printHelloTask},
         {"sumTwoNumbers", sumTwoNumbersTask},
         {"bst", bstTask},
-        {"TwoSumIdx", TwoSumIdx}
+        {"TwoSumIdx", TwoSumIdx},
+        {"bubbleSort", bubbleSort_task}
     };
 
     while (true) {

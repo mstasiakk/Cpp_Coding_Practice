@@ -30,6 +30,9 @@
     <ClCompile Include="004_TwoSumIndex\solution_TwoSumIdx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="005_BubbleSort\solution_BubbleSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="PropertySheet.props" />
@@ -49,6 +52,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="004_TwoSumIndex\solution_TwoSumIdx.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="005_BubbleSort\solution_BubbleSort.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
